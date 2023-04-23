@@ -1,10 +1,10 @@
 # GrepolisGhosttownList
 List the ghost towns for a server in grepolis
 
-# Python
+## Run
 
-The `GhosttownList.py` file uses `model/Database.py` and `model/Fetcher.py` to display a simple list of Ghost Towns in around the map center.
+To run, execute `__main__.py` or `presenter.py` i.e. `python3 presenter.py`
 
-# Rust
+## Dependencies
 
-TODO, but I intend to build a simple, standalone GUI Application that does the same, but can be distributed more easily than the python code.
+The code requires `PyQt6` and `requests`, which can be installed with `pip3 install PyQt6 requests`
